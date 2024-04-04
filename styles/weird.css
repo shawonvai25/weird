@@ -1,0 +1,164 @@
+/* common shared styles */
+body {
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: 560;
+}
+.section-description {
+  font-size: 18px;
+  color: #80807e;
+}
+/* header styles */
+header {
+  background-color: #faf0e1;
+  background-image: url(../images/header_bg.png), url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  display: flex;
+}
+nav li {
+  margin-right: 20px;
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+}
+
+.btn-primary {
+  text-align: center;
+  color: #fffffe;
+  background-color: #f0781e;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 11px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.text-primary {
+  color: #f0781e;
+}
+.nav-title {
+  font-size: 50px;
+  font-weight: 550;
+}
+.banner {
+  padding: 0px 0px 0px 83px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content {
+  max-width: 700px;
+}
+.banner-greeting {
+  margin-bottom: 0px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.banner-title {
+  margin-top: 10px;
+  font-size: 50px;
+  font-weight: 550;
+}
+.banner .profile-pic {
+  width: 500px;
+}
+
+/* Main section styles */
+.section-title {
+  text-align: center;
+}
+.about {
+  border-radius: 5px;
+  background-color: #fbdaa9;
+  margin: 130px 70px;
+  padding: 80px;
+  text-align: center;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* skills related styles */
+.what-i-do {
+  margin: 50px;
+}
+.skill-container {
+  display: flex;
+  margin: 40px 120px 0px 120px;
+  justify-content: center;
+  gap: 50px;
+}
+.skill {
+  border: 0;
+  border-radius: 5px;
+  width: 190px;
+  box-shadow: 0px 2px 10px 0px #c8c7c6;
+}
+.skill-description {
+  color: #7b7976;
+}
+
+/* resume section styles */
+.resume-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.resume-column {
+  width: 50%;
+}
+.resume-item {
+  margin-bottom: 25px;
+}
+.resume-column-title {
+  font-size: 27px;
+}
+.resume-item-institute {
+  color: #80807e;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 140px;
+}
+/* footer section styles  */
+.social-links a {
+  margin-right: 30px;
+}
+footer {
+  background-color: #fae8d8;
+  display: flex;
+  gap: 100px;
+  padding: 130px 200px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-column {
+  width: 50%;
+}
+.contact input[type="email"],
+.contact input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 13px;
+  border-radius: 5px;
+  border: 0;
+  padding: 7px 12px;
+  background-color: #fffffe;
+}
